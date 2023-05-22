@@ -140,6 +140,9 @@ If you supply a valid path to DSP-SLAM as the 4-th argument, after running the p
 ```
 python extract_map_objects.py --config configs/config_kitti.json --map_dir map/07 --voxels_dim 64
 ```
+```
+python extract_map_objects.py --config configs/freiburg_001.yaml --map_dir map/freiburg/001 --voxels_dim 64
+```
 
 It will create a new directory under map/07 and stores all the meshes and object poses there. Then you will be able to visualize the reconstructed joint map by running:
 
