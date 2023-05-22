@@ -70,7 +70,7 @@ target_link_libraries(${PROJECT_NAME}
         pybind11::embed
         ${OpenCV_LIBS}
         ${EIGEN3_LIBS}
-        ${Pangolin_LIBRARIES}
+        ${Pangolin_LIBRARIES} -ltiff
         ${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/libDBoW2.so
         ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
         )
